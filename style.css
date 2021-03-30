@@ -1,0 +1,42 @@
+.sobre {
+    color: rgb(167, 1, 1);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+h3{
+    text-align: center;
+    color: rgb(167, 1, 1);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.titulo{
+    color: rgb(139, 1, 167);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 138px; 
+    margin: 20px;
+    padding: 20px;
+}
+
+#image-header{
+    background-image: url("img/sheet-music-1136234_1920.png");
+    background-size: contain;
+    border: 2px solid darkgray;
+    color: #000; text-shadow: 1px 1px 0 #fff;
+    height: 50px;
+    
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("img/PngtreebrilliantMusicNotes4343120.png");
+    background-repeat: no-repeat, repeat;
+    background-attachment: initial, fixed;
+    background-blend-mode:lighten;
+  }
+
+footer{
+    font-family: 'Dancing Script', cursive;
+}
