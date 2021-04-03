@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .sobre {
     color: rgb(167, 1, 1);
     font-family: 'Dancing Script', cursive;
@@ -16,27 +21,93 @@ h3{
     color: rgb(139, 1, 167);
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 138px; 
+    font-size: 10rem; 
     margin: 20px;
     padding: 20px;
+    text-align: center;
 }
 
-#image-header{
+.cabecalho{
     background-image: url("img/sheet-music-1136234_1920.png");
     background-size: contain;
     border: 2px solid darkgray;
     color: #000; text-shadow: 1px 1px 0 #fff;
     height: 50px;
-    
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    text-align: center;    
 }
+
 
 body {
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("img/PngtreebrilliantMusicNotes4343120.png");
-    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+    background-repeat: repeat;
     background-attachment: initial, fixed;
     background-blend-mode:lighten;
   }
 
-footer{
+
+  .display-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+   
+}
+
+.sobre-musica__container {
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10rem;
+    border-radius: 10px;
+    
+}
+
+
+.sobre-musica__container-img {
+    margin-bottom: 1rem;
+    max-width: 15rem;
+    
+}
+
+.sobre-musica__container:hover {
+    background-color:rgb(139, 1, 167, 0.5)
+}
+
+.sobre-musica__container-link,
+.sobre-musica__container-paragrafo {
+    color: rgb(139, 1, 167);
+    order: 0;
+    flex:0 1 auto;
+    align-self: auto;
+}
+
+.sobre-musica__container-paragrafo {
+    margin-top: 10px;
+    font-size: 25px;
     font-family: 'Dancing Script', cursive;
+}
+
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+.rodape__paragrafo {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(109, 0, 131);
+    margin-bottom: 1px;
+    font-size: 1rem;
+}
+.rodape__paragrafo2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+    font-size: 1rem;
 }
